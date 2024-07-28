@@ -2,8 +2,8 @@
 
 ### Pwn
 
-| Done? | Name | Challenge Details | Estimated Difficulty (1-5) | Port Number |
-| - | - | - | - | - |
+| Name | Challenge Details | Estimated Difficulty (1-5) | Port Number |
+| - | - | - | - |
 | [Baby fmtstr](./quals/baby-fmtstr/) | buffer overflow using strftime (using format string) into command to be executed, done by changing locale into something ending with 'sh' | 2 | 31234 |
 | [heapheapheap](./quals/heap-heap-heap/) | Worst fit heap implementation using a heap | 5 | 33456 |
 
