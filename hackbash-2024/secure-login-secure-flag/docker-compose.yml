@@ -1,0 +1,6 @@
+version: "3"
+services:
+    challenge:
+        build: deploy
+        ports:
+            - 55602:8000
