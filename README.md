@@ -1,5 +1,8 @@
 # CTF Challenges
 
-Here are some CTF challenges I've created over the past 2 years, mainly web and pwn.
+Here are some CTF challenges I've created, mainly web and pwn.
 
-Most of these challenges are for beginners and are thus quite easy to solve.
+
+- [AppVenture](./appventure/): Some simple training challenges for internal CTFs in my high school
+- [Hackbash 2024](./hackbash-2024/): Beginner challenges for pre-university students
+- [GreyCTF 2024](./greyctf-2024/): Pretty hard challenges for NUS Greyhats
