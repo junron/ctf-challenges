@@ -1,0 +1,20 @@
+author: jro
+category: Pwn
+connection_info: nc challs.nusgreyhats.org 34569
+description: 'After the success of my heap allocator, I decided to help the NUSmods
+  team out with a super fast data structure
+
+
+  Author: jro'
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 200
+files:
+- dist-avl.zip
+flags:
+- grey{m4573r_0f_7r335_4nd_h34p}
+name: AVL
+state: visible
+type: dynamic
+value: 1000

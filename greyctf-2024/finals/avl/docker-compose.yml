@@ -1,0 +1,8 @@
+services:
+  challenge:
+    container_name: pwn-avl
+    build: service
+    privileged: true
+    ports:
+        - 34569:5000
+

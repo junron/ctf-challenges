@@ -23,7 +23,7 @@
 | Name | Challenge Details | Estimated Difficulty (1-5) | Port Number |
 | - | - | - | - |
 | [memecat](./finals/meme-cat/) | Free of invalid pointer  | 4 | 34567 |
-| AVL | [REDACTED] | 3.5 | [REDACTED] |
+| AVL | Double free in AVL tree deletion operation | 3.5 | 34569 |
 
 
 ### Web
